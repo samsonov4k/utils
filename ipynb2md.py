@@ -53,10 +53,6 @@ def convert_ipynb_or_dir(path):
 
 # --- Основной блок вызова ---
 if __name__ == "__main__":
-    # Пример 1: один файл
+    # В строку написать путь к файлу или папке (тогда будут сконвертирвоаны все ipynb в папке)
     filename = r"c:\Проекты\ПроектыML\Занятие02\LRegression.ipynb"
     convert_ipynb_or_dir(filename)
-
-    # Пример 2: папка (раскомментировать при желании)
-    # folder = r"c:\Проекты\ПроектыML\Занятие02"
-    # convert_ipynb_or_dir(folder)
